@@ -1,3 +1,98 @@
+:root {
+  --c-btn1: #017187;
+  --c-btn2: #5c0187;
+  --c-btn3: #871101;
+  --c-btn4: #01870e;
+  --c-btn5: #e2cf22;
+  --c-btn6: #011e87;
+  --c-btn7: #18d5e1;
+
+  --c-sqr-bg: #1fc2ae;
+}
+
 body {
-    background-color: #83b8c5;
+  background-color: #ffffff;
+  width: 1205px;
+  height: 1156px;
+  font-size: 1em;
+  font-family: 'ABeeZee', sans-serif;
+}
+input {
+  width: 200px;
+  height: 2rem;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-radius: 0.25rem;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.top {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.75rem;
+}
+.middle {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+.bottom {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  color: #ffffff;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1em;
+}
+
+.square {
+  width: 16rem;
+  height: 16rem;
+  background-color: var(--c-sqr-bg);
+  border-radius: 0.25rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+.sqr1:hover {
+  background-color: red;
+}
+.btn1 {
+  background-color: var(--c-btn1);
+}
+.btn2 {
+  background-color: var(--c-btn2);
+  opacity: 71%;
+}
+.btn3 {
+  background-color: var(--c-btn3);
+  opacity: 56%;
+}
+.btn4 {
+  background-color: var(--c-btn4);
+  opacity: 63%;
+}
+.btn5 {
+  background-color: var(--c-btn5);
+}
+.btn6 {
+  background-color: var(--c-btn6);
+}
+.btn7 {
+  background-color: var(--c-btn7);
 }
